@@ -1,0 +1,15 @@
+[package]
+name = "floem-test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+confy = "0.6.1"
+dyn-clone = "1.0.17"
+floem = { path = "../floem",features = ["serde"] }
+jiff = { version = "0.1.13", features = ["serde"] }
+lipsum = "0.9.1"
+lucide-floem = {path = "../lucide-floem"}
+serde = { version = "1.0.210", features = ["derive"] }
+serde_yaml = "0.9.34"
+strum = { version = "0.26", features = ["derive"] }

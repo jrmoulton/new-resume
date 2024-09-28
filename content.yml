@@ -1,0 +1,148 @@
+personal:
+  name: Jared Moulton
+  email: jaredmoulton3@gmail.com
+  phone: 435-828-0544
+  #url: https://jrmoulton.com
+  location:
+    city: Logan
+    region: Utah
+    postalCode:
+    country: 
+  profiles:
+    - network: GitHub
+      username: jrmoulton
+      url: https://github.com/jrmoulton
+
+objective: ""
+
+education:
+  - institution: Utah State University
+    url: https://usu.edu/
+    area: Computer Engineering
+    studyType: Bachelor of Science
+    endDate: 2025-05-10
+    location: Logan, Utah
+    gpa: 3.3
+    honors:
+    courses:
+      - Compiler Architecture
+      - Computer Systems Programming and Architecture
+      - Microcontrollers
+      - Embedded Real Time Operating Systems
+      - Technical Writing
+      - Pinciples of Cyber Physical Systems
+      - Reconfigurable Computing
+    highlights:
+
+work:
+  - organization: Baker Hughes / Bently Nevada
+    position: Firmware Engineer
+    url: https://www.bakerhughes.com/bently-nevada
+    location: Remote / Minden, Nevada
+    startDate: 2022-05-14
+    endDate: 2024-08-20
+    highlights:
+      - Led a team of 3 engineers to sucessfully build an embedded, high performange, internal testing tool in 6 months
+      - Developed a USB communication protocol that maximizes wire efficiency and memory optimization
+      - Designed and deployed a cross-platform graphical user interface, enhancing user interaction and system accessibility
+      - Contributed to hardware design enhancements through targeted, constructive feedback
+      - Significantly increased the performance of dual-channel direct digital synthesizer firmware, achieving a speed improvement of over 100x
+
+  - organization: Utah State University
+    position: Microcontrollers Lab TA
+    url: ""
+    location: Logan, Utah
+    startDate: 2024-08-01
+    endDate: 2024-12-01
+    highlights:
+
+  - organization: Fox Pest Control
+    position: Sales Associate
+    url: ""
+    location: Albany, New York
+    startDate: 2021-05-01
+    endDate: 2021-08-01
+    highlights:
+      - Gained experience in sales processes and techniques by consistently closing sales
+      - Enhanced negotiation skills through direct customer interactions, generating over \$50,000 in revenue
+
+  #- organization: USU Campus Store
+    #position: Computer Repair Technician
+    #url: ""
+    #location: Albany, New York
+    #startDate: 2020-05-01
+    #endDate: 2021-05-01
+    #highlights:
+      
+
+
+projects:
+  - name: "Compiler"
+    highlights: 
+    - Designed and built an interpreter and compiler for a custom programming language
+    - Developed a custom virtual machine
+    - Implemented robust error handling and clear user feedback
+    - Utilized test driven development to ensure correctness
+    technologies: Compiler Design, Bytecode, Virtual Machine, Rust, Java
+    url: https://github.com/jrmoulton/interpreter-rs
+    affiliation:
+
+  - name: "Open Source, High Performance, Cross Platform UI Framework"
+    highlights: 
+      - Built and integrated a high performance, flexible keyframe animation engine, including spring animations
+      - Contribute regularly, focusing on API ergononics and developer experience
+      - Perform code review for external contributions
+    url: https://github.com/lapce/floem
+    technologies: GUI, 
+    affiliation:
+  - name: "Hardware Desk Controller - Reverse Engineered"
+    highlights: 
+    - Decoded half-duplex UART communication using a logic analyzer
+    - Developing a Bluetooth-enabled remote control using ESP32C3 for enhanced functionality
+    technologies: Embedded Systems, UART Communication, ESP32S3, Bluetooth
+    url: https://github.com/jrmoulton/leviosa
+    affiliation:
+
+skills:
+  - category: Programming Languages
+    skills:
+      - C
+      - Rust
+      - C++
+      - Python
+      - Java
+      - Verilog
+
+  - category: Hardware Description Languages
+    skills:
+      - Verilog
+      - VHDL
+  - category: Equipment
+    skills:
+      - Oscilloscope
+      - Logic Analyzer
+      - STM32
+      - FPGA
+
+languages:
+  - language: English
+    fluency: Native speaker
+  - language: Spanish
+    fluency: Fluent
+
+interests:
+  - Mountain Biking
+  - Skiing
+  - Programming
+  - Family
+
+references:
+  # The same goes for the publications
+affiliations:
+
+awards:
+
+certificates:
+
+publications:
+
