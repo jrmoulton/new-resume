@@ -26,16 +26,17 @@ education:
     honors:
     courses:
       - Compiler Architecture
+      - Embedded Real Time Operating Systems
+      - Reconfigurable Computing
       - Computer Systems Programming and Architecture
       - Microcontrollers
-      - Embedded Real Time Operating Systems
       - Technical Writing
       - Pinciples of Cyber Physical Systems
-      - Reconfigurable Computing
+      - Computer Networks
     highlights:
 
 work:
-  - organization: Baker Hughes / Bently Nevada
+  - organization: Baker Hughes
     position: Firmware Engineer
     url: https://www.bakerhughes.com/bently-nevada
     location: Remote / Minden, Nevada
@@ -90,6 +91,7 @@ projects:
   - name: "Open Source, High Performance, Cross Platform UI Framework"
     highlights: 
       - Built and integrated a high performance, flexible keyframe animation engine, including spring animations
+      - Lead the transition to a new high performace 2d renderer
       - Contribute regularly, focusing on API ergononics and developer experience
       - Perform code review for external contributions
     url: https://github.com/lapce/floem
@@ -111,7 +113,6 @@ skills:
       - C++
       - Python
       - Java
-      - Verilog
 
   - category: Hardware Description Languages
     skills:
@@ -131,9 +132,9 @@ languages:
     fluency: Fluent
 
 interests:
+  - Programming
   - Mountain Biking
   - Skiing
-  - Programming
   - Family
 
 references:
