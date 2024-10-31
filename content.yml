@@ -2,7 +2,7 @@ personal:
   name: Jared Moulton
   email: jaredmoulton3@gmail.com
   phone: 435-828-0544
-  #url: https://jrmoulton.com
+  url: https://jrmoulton.com
   location:
     city: Logan
     region: Utah
@@ -25,11 +25,11 @@ education:
     gpa: 3.3
     honors:
     courses:
-      - Compiler Architecture
       - Embedded Real Time Operating Systems
+      - Microcontrollers
+      - Compiler Architecture
       - Reconfigurable Computing
       - Computer Systems Programming and Architecture
-      - Microcontrollers
       - Technical Writing
       - Pinciples of Cyber Physical Systems
       - Computer Networks
@@ -37,15 +37,16 @@ education:
 
 work:
   - organization: Baker Hughes
-    position: Firmware Engineer
+    position: Firmware Engineer (C, Rust)
     url: https://www.bakerhughes.com/bently-nevada
     location: Remote / Minden, Nevada
     startDate: 2022-05-14
     endDate: 2024-08-20
     highlights:
       - Led a team of 3 engineers to sucessfully build an embedded, high performange, internal testing tool in 6 months
-      - Developed a USB communication protocol that maximizes wire efficiency and memory optimization
-      - Designed and deployed a cross-platform graphical user interface, enhancing user interaction and system accessibility
+      - Designed, developed, and deployed a cross-platform GUI, enabling low-latency configuration of an embedded system
+      - Developed drivers for I2C, UART, and an async STM32 I2C slave implementation
+      - Developed a USB communication protocol to maximizes wire efficiency and memory optimization
       - Contributed to hardware design enhancements through targeted, constructive feedback
       - Significantly increased the performance of dual-channel direct digital synthesizer firmware, achieving a speed improvement of over 100x
 
@@ -78,7 +79,18 @@ work:
 
 
 projects:
-  - name: "Compiler"
+  - name: "Open Source, High Performance, Cross Platform UI Framework (Rust)"
+    highlights: 
+      - Organize and push development forward as a core maintainer
+      - Lead the transition to a new, high performace 2D renderer
+      - Built and integrated a high performance, flexible keyframe animation engine, including spring animations
+      - Contribute regularly, focusing on API ergononics and developer experience
+      - Perform code review for external contributions
+    url: https://github.com/lapce/floem
+    technologies: GUI, 
+    affiliation:
+
+  - name: "Compiler (Rust)"
     highlights: 
     - Designed and built an interpreter and compiler for a custom programming language
     - Developed a custom virtual machine
@@ -88,28 +100,26 @@ projects:
     url: https://github.com/jrmoulton/interpreter-rs
     affiliation:
 
-  - name: "Open Source, High Performance, Cross Platform UI Framework"
+  - name: "STM32 I2C Remote Controlled Robot (C)"
     highlights: 
-      - Built and integrated a high performance, flexible keyframe animation engine, including spring animations
-      - Lead the transition to a new high performace 2d renderer
-      - Contribute regularly, focusing on API ergononics and developer experience
-      - Perform code review for external contributions
-    url: https://github.com/lapce/floem
-    technologies: GUI, 
-    affiliation:
-  - name: "Hardware Desk Controller - Reverse Engineered"
-    highlights: 
-    - Decoded half-duplex UART communication using a logic analyzer
-    - Developing a Bluetooth-enabled remote control using ESP32C3 for enhanced functionality
-    technologies: Embedded Systems, UART Communication, ESP32S3, Bluetooth
-    url: https://github.com/jrmoulton/leviosa
+    - Implemented 
+    technologies: Embedded Systems, STM32, I2C, Motor Driver
+    url: https://github.com/jrmoulton/
     affiliation:
 
+  # - name: "Hardware Desk Controller - Reverse Engineered (Rust)"
+  #   highlights: 
+  #   - Decoded half-duplex UART communication using a logic analyzer
+  #   - Developing a Bluetooth-enabled remote control using ESP32C3 for enhanced functionality
+  #   technologies: Embedded Systems, UART Communication, ESP32S3, Bluetooth
+  #   url: https://github.com/jrmoulton/leviosa
+    # affiliation:
+
 skills:
-  - category: Programming Languages
+  - category: Programming Languages and Frameworks
     skills:
-      - C
       - Rust
+      - C
       - C++
       - Python
       - Java
@@ -124,6 +134,9 @@ skills:
       - Logic Analyzer
       - STM32
       - FPGA
+  - category: Other
+    skills:
+      - FreeRTOS
 
 languages:
   - language: English
