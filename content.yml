@@ -2,7 +2,7 @@ personal:
   name: Jared Moulton
   email: jaredmoulton3@gmail.com
   phone: 435-828-0544
-  url: https://jrmoulton.com
+  # url: https://jrmoulton.com
   location:
     city: Logan
     region: Utah
@@ -12,6 +12,9 @@ personal:
     - network: GitHub
       username: jrmoulton
       url: https://github.com/jrmoulton
+    # - network: LinkedIn
+    #   username: jrmoulton
+      # url: https://www.linkedin.com/in/jrmoulton/
 
 objective: ""
 
@@ -37,7 +40,7 @@ education:
 
 work:
   - organization: Baker Hughes
-    position: Firmware Engineer (C, Rust)
+    position: Firmware Engineer
     url: https://www.bakerhughes.com/bently-nevada
     location: Remote / Minden, Nevada
     startDate: 2022-05-14
@@ -79,7 +82,7 @@ work:
 
 
 projects:
-  - name: "Open Source, High Performance, Cross Platform UI Framework (Rust)"
+  - name: "Open Source, High Performance, Cross Platform GUI Library"
     highlights: 
       - Organize and push development forward as a core maintainer
       - Lead the transition to a new, high performace 2D renderer
@@ -90,7 +93,16 @@ projects:
     technologies: GUI, 
     affiliation:
 
-  - name: "Compiler (Rust)"
+  - name: "STM32 I2C Remote Controlled Robot"
+    highlights: 
+    - Implemented an I2C driver for an accelerometer controller
+    - Implemented a PWM driven driver for a motor controller
+    - Implemented all STM32 peripheral control without a hardware abstraction layer
+    technologies: Embedded Systems, STM32, I2C, Motor Driver
+    url: https://github.com/jrmoulton/
+    affiliation:
+
+  - name: "Compiler"
     highlights: 
     - Designed and built an interpreter and compiler for a custom programming language
     - Developed a custom virtual machine
@@ -100,12 +112,6 @@ projects:
     url: https://github.com/jrmoulton/interpreter-rs
     affiliation:
 
-  - name: "STM32 I2C Remote Controlled Robot (C)"
-    highlights: 
-    - Implemented 
-    technologies: Embedded Systems, STM32, I2C, Motor Driver
-    url: https://github.com/jrmoulton/
-    affiliation:
 
   # - name: "Hardware Desk Controller - Reverse Engineered (Rust)"
   #   highlights: 
@@ -118,9 +124,9 @@ projects:
 skills:
   - category: Programming Languages and Frameworks
     skills:
-      - Rust
       - C
       - C++
+      - Rust
       - Python
       - Java
 

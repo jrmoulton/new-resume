@@ -4,8 +4,8 @@
 #let cvdata = yaml("content.yml")
 
 #let uservars = (
-    headingfont: "Linux Libertine", // Set font for headings
-    bodyfont: "Linux Libertine",   // Set font for body
+    headingfont: "Libertinus Serif", // Set font for headings
+    bodyfont: "Libertinus Serif",   // Set font for body
     fontsize: 10pt, // 10pt, 11pt, 12pt
     linespacing: 6pt,
     showAddress: true, // true/false Show address in contact info
